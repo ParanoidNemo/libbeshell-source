@@ -1,6 +1,7 @@
 #ifndef LIBBESHELL_H_INCLUDE
 #define LIBBESHELL_H_INCLUDE
 
+#include <iostream>
 using namespace std;
 
 class Theme
