@@ -23,4 +23,6 @@ Theme::Theme()
     }
 
     f.close();
+    
+    path = pd->mnDir + "Themes/" + name;
 }
