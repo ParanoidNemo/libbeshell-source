@@ -7,9 +7,9 @@ class Theme
 {
 public:
     Theme();
+    string path;
 private:
     string name;
-    string path;
 };
 
 #endif //LIBBESHELL_H_INCLUDE
