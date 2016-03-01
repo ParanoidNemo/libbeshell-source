@@ -8,11 +8,12 @@ class Default
 {
     friend class Theme;
 public:
+    Default();
+private:
     const string home = getenv("HOME");
     string cfgDir;
     string mnFile;
     string mnDir;
-    Default();
 };
 
 #endif //DEFAULT_H_INCLUDE
