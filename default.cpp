@@ -1,3 +1,4 @@
+#include <fstream>
 #include <sstream>
 #include "default.h"
 
@@ -6,8 +7,10 @@ using namespace std;
 Default::Default()
 {
     stringstream ss;
-
-    ss << home << "/.kde4/share/config/";
+    fstream check (home + "/.kde4/share/config/be.shell");
+    
+    if (!check) ss << home << "/.kde/share/config/";
+    else ss << home << "/.kde4/share/config/";
     cfgDir = ss.str();
 
     ss << "be.shell";
