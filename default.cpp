@@ -7,7 +7,7 @@ using namespace std;
 Default::Default()
 {
     stringstream ss;
-    fstream check (home + "/.kde4/share/config/be.shell");
+    ifstream check (home + "/.kde4/share/config/be.shell");
     
     if (!check) ss << home << "/.kde/share/config/";
     else ss << home << "/.kde4/share/config/";
