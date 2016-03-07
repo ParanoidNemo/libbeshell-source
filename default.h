@@ -2,6 +2,7 @@
 #define DEFAULT_H_INCLUDE
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 class Default
