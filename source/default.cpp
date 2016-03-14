@@ -21,3 +21,7 @@ Default::Default()
     ss << home << "/.kde4/share/apps/be.shell/";
     mnDir = ss.str();
 }
+
+Default::~Default()
+{
+}

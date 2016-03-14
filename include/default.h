@@ -10,6 +10,7 @@ class Default
     friend class Theme;
 public:
     Default();
+    ~Default();
 private:
     const string home = getenv("HOME");
     string cfgDir;

@@ -8,6 +8,7 @@ class Theme
 {
 public:
     Theme();
+    ~Theme();
     string path;
 private:
     string name;

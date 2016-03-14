@@ -26,3 +26,8 @@ Theme::Theme()
     
     path = pd->mnDir + "Themes/" + name;
 }
+
+Theme::~Theme()
+{
+}
+
